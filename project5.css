@@ -1,0 +1,76 @@
+nav{
+  position: fixed;
+  width: 100%;
+  text-align: right;
+  font-size: 24pt;
+  top: 0%;
+  right: 5px;
+  background-color: #ecd9c6;
+  color:  #4d2600;
+}
+@media (max-width: 500px){
+  nav{
+    display: none;
+  }
+}
+a{
+  color: #4d2600;
+}
+main{
+  text-align: center;
+  background-color: #dfbf9f;
+  font-family:  serif;
+}
+h1{
+  font-size: 40pt;
+}
+h4{
+  font-size: 22pt;
+  text-align: left;
+}
+h5{
+  font-size: 22pt;
+  text-align:right ;
+}
+
+ul{
+    text-align:center;
+    font-size: 17pt;
+}
+ol{
+  text-align:left;
+  font-size: 17pt;
+}
+
+p{
+  font-size: 17pt;
+}
+p2{
+  font-size: 19pt;
+}
+#welcome-section{
+  background-color:   #e6ccb3;
+  color: #4d2600;
+  display: table-cell;
+  vertical-align:middle;
+  width: 100vw;
+  height: 100vh;
+}
+#project{
+  background-color: #dfbf9f;
+  color: #4d2600;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  height: 100vh;
+ 
+}
+#contact{
+  background-color:  #c5a27f;
+  color: #4d2600;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100vw;
+  height: 100vh;
+}
+
